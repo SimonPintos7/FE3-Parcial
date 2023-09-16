@@ -70,18 +70,17 @@ form{
   margin: 0 auto;
 }
 
-.card{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  width: 200px;
-  padding: 0.5rem 0.5rem 0 0.5rem;
-  border: 0.5px solid rgb(136, 136, 136);
+.card {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin: 10px;
+  background-color: #a9e1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .card:hover{
-  border: 0.5px solid rgb(206, 217, 142);
+  border: 0.5px solid rgb(0, 0, 0);
 }
 
 .card-grid{
